@@ -10,8 +10,12 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "@theme-ui/preset-dark": "^0.3.0",
+    "@theme-ui/preset-deep": "^0.3.0",
+    "@theme-ui/prism": "^0.3.0",
     "gatsby": "^2.24.26",
     "gatsby-theme-blog": "^2.0.1",
+    "gatsby-theme-blog-darkmode": "^2.0.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "theme-ui": "0.4.0-alpha.3"

@@ -4,14 +4,15 @@
  * to go from default purple to a blue theme
  */
 
-const darkBlue = `#007acc`
-const lightBlue = `#66E0FF`
-const blueGray = `#282c35`
+import { merge } from "theme-ui"
+import darkmode from "gatsby-theme-blog-darkmode/src/gatsby-plugin-theme-ui"
 
-export default {
-    colors: {
-        text: blueGray,
-        primary: darkBlue,
-        heading: blueGray,
+export default merge(darkmode, {
+  colors: {
+    modes: {
+      dark: {
+        text: `tomato`,
+      },
     },
-}
+  },
+})

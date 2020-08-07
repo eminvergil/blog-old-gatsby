@@ -1,23 +1,24 @@
 module.exports = {
   plugins: [
+    `gatsby-theme-blog-darkmode`,
     {
       resolve: `gatsby-theme-blog`,
-      options: {},
+      options: { prismPreset: `prism-okaidia` },
     },
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: `My Blog Title`,
-    author: `My Name`,
-    description: `My site description...`,
+    title: `BLOG`,
+    author: `Emin Vergil`,
+    description: `A personal blog about software and other stuff.`,
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/gatsbyjs`,
+        url: `https://twitter.com/eminvergil`,
       },
       {
         name: `github`,
-        url: `https://github.com/gatsbyjs`,
+        url: `https://github.com/eminvergil`,
       },
     ],
   },
